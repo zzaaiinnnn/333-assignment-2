@@ -18,6 +18,36 @@ if (!$data || !isset($data["results"])) {
 $output = $data["results"];
 
 ?>
+   <!-- html-->
+   <html>
+    <head>
+        <title>assignemt 2</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- PicoCSS Framework-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+        <style>
+           tr{table: auto;}
+        </style>
+    </head>
+    <body>
+        <div class="table-auto">   
+            <!-- table-->
+            <table>
+            <thead>
+                 <tr >
+                    <th>Year</th>
+                    <th>Semester</th>
+                    <th>The Programs</th>
+                    <th>Nationality </th>
+                    <th>Collages</th>
+                    <th>Number of Students</th>
+       
+        
+
+                </tr>
+            </thead>
+    <tbody>
+
   
   
   <?php
@@ -38,3 +68,8 @@ $output = $data["results"];
     }
 
     ?>
+    </tbody>
+</table>
+</div>
+</body>
+</html>\
